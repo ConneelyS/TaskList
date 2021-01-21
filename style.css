@@ -2,6 +2,31 @@ body {
     background-color: #CDCDCD
 }
 
+#headingBar {
+    background-color: white;
+}
+
 h1 {
-    color: rgb(216, 134, 27)
+    color: rgb(216, 134, 27);
+    padding :0px;
+    size: 30px;
+}
+
+#table, th {
+    padding: 2px;
+    border: 1px solid black;
+    background-color: #C7C7C7;
+}
+
+#tableData {
+    border: 1px solid;
+    text-align: center;
+    color: blue;
+}
+
+#tableHeader {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-align: center;
 }
